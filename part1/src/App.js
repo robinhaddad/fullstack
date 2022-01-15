@@ -22,7 +22,7 @@ const App = () => {
             return (
                 <div>
                     <div><p> </p>
-                        <p1>(You are now viewing assignments 1.1-1.5)</p1>
+                        <p>(You are now viewing assignments 1.1-1.5)</p>
                         <p> </p>
                     </div>
                     <div>
@@ -34,7 +34,7 @@ const App = () => {
             return (
                 <div>
                     <div><p> </p>
-                        <p1>(You are now viewing assignments 1.6-1.11)</p1>
+                        <p>(You are now viewing assignments 1.6-1.11)</p>
                         <p> </p>
                     </div>
                     <div>
@@ -45,7 +45,7 @@ const App = () => {
             return (
                 <div>
                     <div><p> </p>
-                        <p1>(You are now viewing assignments 1.12-1.14)</p1>
+                        <p>(You are now viewing assignments 1.12-1.14)</p>
                         <p> </p>
                     </div>
                     <div>
