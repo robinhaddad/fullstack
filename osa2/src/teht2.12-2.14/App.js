@@ -28,7 +28,7 @@ const MyWeather = ({country,capital}) => {
     )
      */
     return (
-        <div> EMPTY DIV HERE WHY? </div>
+        <div>  </div>
     )
 }
 const App = () => {

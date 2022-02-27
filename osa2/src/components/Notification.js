@@ -5,7 +5,10 @@ const Notification = ({ message }) => {
         return null
     } else if (message.valueOf()===`please give a proper name...`
         || message.includes(`is already added to phonebook`)
-        || message.includes(`has already been removed from server`)){
+        || message.includes(`has already been removed from server`)
+        || message.includes(`validation`)
+        || message.includes(`Person validation failed!`)
+        || message.includes(`phone number!`)){
         return (
             <div className="error">
                 {message}

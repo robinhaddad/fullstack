@@ -101,6 +101,17 @@ const App = () => {
                 }, 3000)
 
                 })
+                .catch(error => {
+                    console.log(error.response.data)
+
+                    let myObj1 = error.response.data
+
+                    setErrorMessage(myObj1.error)
+
+                    setTimeout(() => {
+                        setErrorMessage(null)
+                    }, 3000)
+                })
         } else if ( (nameAlreadyInArray === newName && newName && phoneNumberAlreadyInArray === newPhoneNumber)
             || (nameAlreadyInArray===newName && !newPhoneNumber) ){
             let msg = `${newName} is already added to phonebook`
