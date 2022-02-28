@@ -2,9 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/osa3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/osa3" vcs="" />
     <mapping directory="$PROJECT_DIR$/osa_3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/part3_new" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/phonebook_app_osa3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/part3_new" vcs="" />
+    <mapping directory="$PROJECT_DIR$/phonebook_app_osa3" vcs="" />
   </component>
 </project>

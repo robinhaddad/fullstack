@@ -51,7 +51,7 @@ const App = () => {
     }, [])
     console.log('render', notes.length, 'notes')
 
-    const [filterValue, setFilterValue] = useState("sw")
+    const [filterValue, setFilterValue] = useState("")
 
     const handleFilterValueChange = (event) => {
         console.log(event.target.value)
